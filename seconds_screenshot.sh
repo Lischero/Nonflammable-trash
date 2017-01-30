@@ -8,7 +8,7 @@ tmp2=`echo 0`
 
 if [ ! -e ${DIRNAME} ]
 then
-    mkdir ${DIRNAME}
+    mkdir -p ${DIRNAME}
 fi
 
 while true
