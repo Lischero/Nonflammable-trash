@@ -6,10 +6,7 @@ DIRNAME="${HOME}/Desktop/capture/${folder}/"
 tmp1=0
 tmp2=`echo 0`
 
-if [ ! -e ${DIRNAME} ]
-then
-    mkdir ${DIRNAME}
-fi
+mkdir -p ${DIRNAME}
 
 while true
 do 
