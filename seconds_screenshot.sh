@@ -1,6 +1,6 @@
 #!/bin/bash
 
-INTERVAL=0.5 #Interval of Capture Screen(seconds)
+INTERVAL=1 #Interval of Capture Screen(seconds)
 read folder
 DIRNAME="${HOME}/Desktop/capture/${folder}/"
 tmp1=0
